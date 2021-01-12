@@ -6,9 +6,10 @@ function lol(){
     let enc1 = enc.slice(0, 42)
     if (enc1 == 'c7c9744ef928472943951a851c16372852a544973f'){
         s1 = t + enc 
-        document.getElementById('1').value = 'txti.es/'+ s1
-
-        
+        document.getElementById('1').value = 'txti.es/'+ s1        
+    }
+    else{
+        document.getElementById('1').value = "that ain't right"
     }
 }
 //so you've reached the unchartered territories..
